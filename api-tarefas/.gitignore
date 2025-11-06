@@ -1,0 +1,32 @@
+# 🚫 Node modules
+node_modules/
+
+# 🚫 Variáveis de ambiente
+.env
+
+# 🚫 Logs e cache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs
+*.log
+*.cache
+.cache/
+.tmp/
+
+# 🚫 Diretórios temporários
+dist/
+build/
+coverage/
+
+# 🚫 Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# 🚫 Ambiente do VSCode
+.vscode/
+
+# 🚫 Arquivos de deploy temporários
+.vercel/
+.netlify/
